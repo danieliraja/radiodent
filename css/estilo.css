@@ -1,0 +1,434 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+img[alt=""],
+img:not([alt]),
+a[title=""],
+a:not([title]) {
+    border: 5px solid #C70039;
+}
+
+em {
+    font-weight: bold !important
+}
+
+.separador {
+    margin: 1%
+}
+
+.list-group-item {
+    color: #333333
+}
+
+.banner,
+.banner img {
+    width: 100% !important
+}
+
+.recomendacoes,
+ol,
+ul {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1em
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+.codificador,
+body {
+    font-family: Roboto, sans-serif
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: normal;
+    font-weight: 300;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.blocos-ttulo,
+.bold {
+    font-weight: 700
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.codificador {
+    text-align: center;
+    font-size: 1em;
+    color: #FFF;
+    background: #2C3E50
+}
+
+.codificador a {
+    text-decoration: none;
+    color: #FFF
+}
+
+/***** FONTS SIZES ************/
+
+.font-zero {
+    font-size: 0;
+    display: none
+}
+
+.font0 {
+    font-size: .3em !important
+}
+
+.font0a {
+    font-size: .4em !important
+}
+
+.font0b {
+    font-size: .5em !important
+}
+
+.font0c {
+    font-size: .7em !important
+}
+
+.font1 {
+    font-size: 1em !important
+}
+
+.font1a {
+    font-size: 1.2em !important
+}
+
+.font1b {
+    font-size: 1.3em !important
+}
+
+.font1c {
+    font-size: 1.4em !important
+}
+
+.font1d {
+    font-size: 1.5em !important
+}
+
+.font2 {
+    font-size: 2em !important
+}
+
+.font3 {
+    font-size: 3em !important
+}
+
+.blocos-ttulo {
+    font-size: 16px
+}
+
+/***** RESETS ************/
+
+.navbar-toggle {
+    background: rgba(0, 175, 239, 0.651) !important;
+    border-color: #00AEEF !important
+}
+
+.fundomenu {
+    background: #333333;
+}
+
+.fundotop {
+    background: #16a085
+}
+
+.fundocor1 {
+    background: rgba(41, 185, 168, .4)
+}
+
+.fundocor2 {
+    background: rgba(41, 128, 185, 1)
+}
+
+.margemone {
+    margin: 2%
+}
+
+.margem2 {
+    margin: 1.4% 0 0 !important
+}
+
+.paddone {
+    padding: .4%
+}
+
+.pad {
+    padding: 3%
+}
+
+.classe1 {
+    background: #16a085;
+}
+
+.classe2 {
+    background: #00AEEF;
+}
+
+/***** CORES ************/
+
+.cor1 {
+    color: #fff !important
+}
+
+.cor2 {
+    color: #666 !important
+}
+
+.cor3 {
+    color: #FFC300 !important
+}
+
+.cor4 {
+    color: #C70039 !important
+}
+
+.quebra-cor {
+    background-color: #f5f5f5
+}
+
+.contato-cor {
+    background-color: #ffffff
+}
+
+.header {
+    color: #FFF
+}
+
+.banner {
+    background: #3498DB
+}
+
+.recomendacoes {
+    margin: 3px;
+    padding: 10px
+}
+
+.menu {
+    background: transparent;
+    font-size: 1em !important;
+    border: none;
+    color: #333333
+}
+
+#menu-config ul {
+    padding: 20px;
+}
+
+#menu-config ul li a {
+    color: #333333;
+    padding: 10px 10px;
+    font-size: 1.1em;
+    font-weight: 400
+}
+
+#menu-config ul li a:hover {
+    background: #00AEEF;
+    color: #ffffff;
+    border-radius: 15px !important;
+    transition: all linear .3s
+}
+
+section div.cap {
+    background: #1CD8D2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #93EDC7, #1CD8D2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #93EDC7, #1CD8D2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron {
+    background: 0 0
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+    background: #2C7CDD;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: #FFF
+}
+
+.thumbnail {
+    padding: 3px
+}
+
+.panel>div.panel-heading {
+    background: rgba(44, 141, 221, 0.712);
+    color: #FFF;
+    font-size: 1em
+}
+
+#conteudo {
+    padding: 20px;
+    margin-top: 20px
+}
+
+#blocos {
+    margin-bottom: 10px
+}
+
+#mapa {
+    padding-top: 30px
+}
+
+#endereco address {
+    font-size: 1em
+}
+
+#endereco,
+#endereco a {
+    color: #FFF;
+    font-size: 1em
+}
+
+#endereco i {
+    font-size: 1.5em
+}
+
+.footer {
+    background: rgba(0, 153, 255, 0.932);
+    padding: 20px;
+    margin-top: 20px
+}
+
+.fb-like,
+.fb-share-button {
+    margin-top: 5px
+}
+
+.old-hunter {
+    font-size: .8em;
+}
+
+.docle {
+    color: #D64B3C;
+    font-weight: bold
+}
+
+.docle:hover {
+    color: #007AFF;
+    font-weight: bold
+}
+
+.font-alert {
+    font-size: 1.5em !important
+}
