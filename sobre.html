@@ -13,23 +13,32 @@
 <body>
 
 
-    <!--     Modal de avisos -->
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+     <!--     Modal de avisos -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Avisos Importantes</h5>
+                <div class="modal-header alert-danger">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p class="lead">Não temos nenhum aviso importante no momento.</p>
+                    <p class="lead">
+                        <strong>Para evitar a propagação da COVID-19, faça o seguinte:</strong><br>
+                       -Lave suas mãos com frequência.<br>
+                       -Use sabão e água ou álcool em gel.<br>
+                       -Mantenha uma distância segura de pessoas que estiverem tossindo ou espirrando.<br>
+                       -Use máscara quando não for possível manter o distanciamento físico.<br>
+                       -Não toque nos olhos, no nariz ou na boca.<br>
+                       -Cubra seu nariz e boca com o braço dobrado ou um lenço ao tossir ou expirar.<br>
+                       -Fique em casa se você se sentir indisposto.<br>
+                       -Procure atendimento médico se tiver febre, tosse e dificuldade para respirar.</p>
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Entendi</button>
+                    <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
                 </div>
             </div>
         </div>
@@ -40,25 +49,24 @@
         <a href="index.html" class="navbar-brand">
             <img src="img/logo-exp.png" alt="Radiodent">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Abrir Navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="index.html" class="nav-link">Exames</a></li>
-                 <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-                 <li class="nav-item"><a href="exames.html" class="nav-link">Convenios</a></li>
-                 <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
-                 <li class="nav-item"><a href="#" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Avisos Importantes</a></li>
-                 <li class="nav-item">
-                     <a href="#phone" class="btn btn-outline-primary ml-md-2">Ligar Agora</a>
-                 </li>
-             </ul>
-
+               <li class="nav-item"><a href="index.html" class="nav-link">Página Inicial</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="exames.html" class="nav-link">Exames</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                <li class="nav-item mb-2"><a href="#" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Avisos Importantes</a></li>
+                <li class="nav-item">
+                    <a href="tel:(21)2489-9390" class="btn btn-outline-primary ml-md-2">Ligar Agora</a>
+                </li>
+            </ul>
         </div>
-
-
     </nav>
 
     <section class="container-fluid">
