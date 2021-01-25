@@ -3,72 +3,15 @@
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <title>Radiodent Radiologia Panorâmica Madureira RJ</title>
+     <title>Radiodent Radiologia Panorâmica - Madureira RJ</title>
      <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
  </head>
 
  <body>
-     <!--     Modal de avisos -->
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-         <div class="modal-dialog" role="document">
-             <div class="modal-content">
-                 <div class="modal-header alert-danger">
-                     <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                         <span aria-hidden="true">&times;</span>
-                     </button>
-                 </div>
-                 <div class="modal-body">
-                     <p class="lead">
-                         <strong>Para evitar a propagação da COVID-19, faça o seguinte:</strong><br>
-                        -Lave suas mãos com frequência.<br>
-                        -Use sabão e água ou álcool em gel.<br>
-                        -Mantenha uma distância segura de pessoas que estiverem tossindo ou espirrando.<br>
-                        -Use máscara quando não for possível manter o distanciamento físico.<br>
-                        -Não toque nos olhos, no nariz ou na boca.<br>
-                        -Cubra seu nariz e boca com o braço dobrado ou um lenço ao tossir ou expirar.<br>
-                        -Fique em casa se você se sentir indisposto.<br>
-                        -Procure atendimento médico se tiver febre, tosse e dificuldade para respirar.</p>
-
-                 </div>
-                 <div class="modal-footer">
-                     <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
-                 </div>
-             </div>
-         </div>
-     </div>
-
-     <!--    menu de navegação -->
-     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-         <a href="index.html" class="navbar-brand">
-             <img src="img/logo-new.svg" alt="Radiodent Logo">
-         </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" 
-         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-         aria-expanded="false" aria-label="Abrir Navegação">
-             <span class="navbar-toggler-icon"></span>
-         </button>
-
-         <div id="navbarSupportedContent" class="collapse navbar-collapse">
-             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="index.html" class="nav-link">Página Inicial</a></li>
-                 <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-                 <li class="nav-item"><a href="exames.html" class="nav-link">Exames</a></li>
-                 <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
-                 <li class="nav-item mb-2"><a href="#" class="btn btn-outline-warning text-btn-fix" 
-                    data-toggle="modal" data-target="#exampleModal"><i class="im im-warning mr-2"></i> Avisos Importantes</a></li>
-                 <li class="nav-item">
-                     <a href="tel:(21)2489-9390" class="btn btn-outline-primary ml-md-1 text-btn-fix"><i class="im im-phone mr-2"></i> Ligar Agora</a>
-                 </li>
-             </ul>
-
-         </div>
-
-
-     </nav>
-
+     
+    <div data-include="header.html"></div>
      <section class="container-fluid">
          <div class="row bg-dark text-white">
              <div class="col-lg-5 p-0">
@@ -122,21 +65,21 @@
                          <img src="img/icones/radiografia.png" alt="">
                      </div>
                      <h3>RADIOGRAFIAS</h3>
-                     <p class="text-center panel-heading bold">Intra-orais</p>
+                     <h4 class="text-center panel-heading bold">Intra-orais</h4>
                      <ul class="list-group">
-                         <li class="list-group-item">Perifical isolado</li>
-                         <li class="list-group-item">Peripical completo</li>
-                         <li class="list-group-item">Interproximial</li>
-                         <li class="list-group-item">Oclusal ortogonal </li>
-                         <li class="list-group-item">Oclusal oblíqua </li>
+                         <li class="list-group-item">Periapical isolado</li>
+                         <li class="list-group-item">Periapical completo</li>
+                         <li class="list-group-item">Interproximal</li>
+                         <li class="list-group-item">Oclusal ortogonal</li>
+                         <li class="list-group-item">Oclusal oblíqua</li>
                      </ul>
-                     <p class="text-center panel-heading">Extra-orais</p>
+                     <h4 class="text-center panel-heading mt-2">Extra-orais</h4>
                      <ul class="list-group">
                          <li class="list-group-item">Panorâmica simples</li>
                          <li class="list-group-item">Panorâmica com complementação</li>
                          <li class="list-group-item">Cefalométrica em perfil</li>
                          <li class="list-group-item">Cefalométrica a 45º</li>
-                         <li class="list-group-item">Punho e mão(finalidade ortodôntica)</li>
+                         <li class="list-group-item">Punho e mão (finalidade ortodôntica)</li>
                      </ul>
                  </div>
                  <div class="col-xl-4 col-md-6 mt-2">
@@ -169,7 +112,7 @@
                          <img src="img/icones/fotografias.png" alt="">
                      </div>
                      <h3>FOTOGRAFIAS</h3>
-                     <p class="text-center panel-heading">Intra-orais</p>
+                     <h4 class="text-center panel-heading ">Intra-orais</h4>
                      <ul class="list-group">
                          <li class="list-group-item">Oclusão</li>
                          <li class="list-group-item">Oclusal</li>
@@ -177,7 +120,7 @@
                          <li class="list-group-item">Overbite</li>
 
                      </ul>
-                     <p class="text-center panel-heading">Extra-orais</p>
+                     <h4 class="text-center panel-heading mt-1">Extra-orais</h4>
                      <ul class="list-group">
                          <li class="list-group-item">Frente</li>
                          <li class="list-group-item">Perfil</li>
@@ -189,10 +132,10 @@
                          <li class="list-group-item">Para trabalho</li>
                      </ul>
 
-                     <p class="text-center panel-heading h4 my-2">IMPLANTES</p>
+                     <p class="text-center panel-heading h4 my-2">TOMOGRAFIAS</p>
                      <ul class="list-group">
-                         <li class="list-group-item">Tomografia Computadorizada</li>
-                         <li class="list-group-item">Cone Beam</li>
+                         <li class="list-group-item">Tomografia Computadorizada Cone Beam</li>
+                         
                      </ul>
                  </div>
              </div>
@@ -252,48 +195,7 @@
              <a href="tel:(21)2489-9390" class="btn btn-success btn-lg">Ligue Nos</a>
          </div>
      </section>
-     <footer class="bg-dark text-white">
-         <div class="container py-4">
-             <div class="row">
-                 <div class="col-md-4 col-sm-4">
-                     <h4 class="h6">Páginas</h4>
-                     <ul class="list-unstyled">
-                         <li><a href="index.html">Página Inicial</a></li>
-                         <li><a href="sobre.html">Sobre</a></li>
-                         <li><a href="exames.html">Exames</a></li>
-                         <li><a href="contato.html">Contato</a></li>
-
-                     </ul>
-                 </div>
-
-                 <div class="col-md-4 col-sm-4">
-                     <h4 class="h6">Dados de Contato</h4>
-
-                     <ul class="list-unstyled">
-                         <li><strong>Endereço:</strong><br><a href="https://www.google.com/maps/dir/-22.8348035,-43.3274617/Radiodent+Radiologia+Odontol%C3%B3gica+Rua+Carvalho+de+Souza,+247+-+Madureira/@-22.8558683,-43.3460531,14z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x9962d6e9c3268f:0x86ad81752cab1afe!2m2!1d-43.3358819!2d-22.8758391!3e0">R. Carvalho de Souza, 247 - Madureira, Rio de Janeiro - RJ, 21350-180</a></li>
-                         <li><strong>Horário:</strong><br> 08:00 às 18:00</li>
-                         <li><strong>Telefone:</strong><br><a href="tel:(21)3359-1488">(21) 3359-1488</a></li>
-                         <li><strong>Email:</strong><a href="mailto:radiodent@bol.com.br?Subject=Dúvida"> radiodent@bol.com.br </a></li>
-                     </ul>
-                 </div>
-
-                 <div class="col-md-4 col-sm-4">
-                     <h4 class="h6">Redes Sociais</h4>
-                     <ul class="list-unstyled">
-                         <li><a href="#" class="btn btn-sm btn-block btn-outline-secondary mb-2" style="max-width: 140px">Facebook</a></li>
-                         <li><a href="" class="btn btn-sm btn-block btn-outline-secondary mb-2" style="max-width: 140px">WhatsApp</a></li>
-                         <li><a href="" class="btn btn-sm btn-block btn-outline-secondary mb-2" style="max-width: 140px">Skype</a></li>
-
-                     </ul>
-                 </div>
-
-
-             </div>
-         </div>
-         <div class="bg-primary text-center">
-             <p class="mb-0">Radiodent Radiologia &copy; 2021. Alguns direitos reservados</p>
-         </div>
-     </footer>
+     <div data-include="footer.html"></div>
      <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
      <script type="text/javascript" src="js/popper.min.js"></script>
      <script type="text/javascript" src="js/bootstrap.js"></script>
