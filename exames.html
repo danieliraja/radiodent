@@ -13,7 +13,7 @@
     
    <div data-include="header.html"></div>
     <!--Linha sobre Exames-->
-    <section id="exames" class="py-5 bg-light text-center">
+    <section  class="py-4 bg-light text-center print">
         <div class="container-fluid">
             <div class="my-4">
                 <span class="h5 center d-block">Temos os mais diversos exames para auxiliar profissionais</span>
@@ -143,21 +143,31 @@
                     <td>--</td>
                     <td>--</td>
                   </tr>
-                  <tr>
+                  <tr class="noprint">
                     <td></td>
                     <td></td>      
                     <td></td>            
                     <td></td>                   
                     <td class="text-right">
-                        <a href="#" type="button" class="btn btn-dark">Imprimir</a>
-                    </td>
-                    
+                        <a href="#" type="button" onclick="window.print()" class="btn btn-dark">Imprimir</a>
+                    </td>                    
                   </tr>
                 </tbody>               
               </table>
             </div>
         </div>
+        
+    <p class="print contact-info">
+      Informações de Contato:<br>
+      Tels: (21) 3359-1488 <br>
+            (21) 2489-9390 <br>
+            (21) 3390-2958 <br>
+      E-mail: radiodent@bol.com.br<br>
+      Endereço: R. Carvalho de Souza, 247 - Madureira,<br>
+      Rio de Janeiro - RJ, 21350-180
+    </p>
     </section>
+
 
     <div data-include="footer.html"></div>
     <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>

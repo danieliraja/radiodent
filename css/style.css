@@ -3,6 +3,9 @@
 body {
     padding-top: 100px
 }
+.contact-info{
+    display: none;
+}
 .text-btn-fix{
     display: flex;
     justify-content: center;
@@ -22,4 +25,57 @@ body {
         position: relative
     }
 
+}
+
+@media print {
+    * {
+        background: transparent;
+        color: #000 !important;
+        text-shadow: none;
+        filter: none;
+        -ms-filter: none;
+    }
+
+    /* body * {
+        visibility: hidden;
+    } */
+
+    .noprint {
+        display: none;
+    }
+
+    section.print {
+        padding-top: -150px;
+    }
+
+    .print,
+    .print * {
+        visibility: visible;
+    }
+
+    .print {
+        width: 1100px;
+    }
+
+    .contact-info {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .print p {
+        margin: 0.25rem;
+    }
+
+    .print ul,
+    .print h4 {
+        margin-top: -100px;
+    }
+
+    .print li {
+        padding: 0.9rem;
+    }
+
+    @page {
+        size: portrait;
+    }
 }
