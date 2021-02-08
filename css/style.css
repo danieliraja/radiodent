@@ -1,8 +1,5 @@
 /* icone feitos por braces by Made x Made from the Noun Project*/
 
-body {
-    padding-top: 100px
-}
 .contact-info{
     display: none;
 }
@@ -15,14 +12,31 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
         0 4px 8px 0 rgba(0, 0, 0, .05);
 }
-
+.navbar-toggler{
+    background-color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon{
+    color: #2f577a
+}
 @media(max-width: 768px) {
     body {
         padding-top: 0px
     }
-
+    .jumbotron img{
+        padding-bottom: 30px;
+    }
     .fixed-top {
         position: relative
+    }
+    .navbar{
+        text-align: right;        
+    }
+    .navbar a{
+        color: #2f577a !important;
+        font-weight: bold
+    }
+    .btn{
+        margin-bottom: 10px;
     }
 
 }

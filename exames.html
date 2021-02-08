@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Radiodent Radiologia Odontológica - Madureira RJ</title>
+    <title>Radiodent Radiologia Odontológica - Exames Odontológicos Madureira RJ</title>
+    <meta name="description" content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência.
+     Trabalhamos com uma equipe especializada e habilitada para realizar exames de forma diferenciada e
+     personalizada a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas
+     diversas especialidades">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
@@ -11,7 +15,72 @@
 
 <body>
     
-   <div data-include="header.html"></div>
+   <!--     Modal de avisos -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" 
+aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header alert-danger">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">
+                    <strong>Para evitar a propagação da COVID-19, faça o seguinte:</strong><br>
+                   -Lave suas mãos com frequência.<br>
+                   -Use sabão e água ou álcool em gel.<br>
+                   -Mantenha uma distância segura de pessoas que estiverem tossindo ou espirrando.<br>
+                   -Use máscara quando não for possível manter o distanciamento físico.<br>
+                   -Não toque nos olhos, no nariz ou na boca.<br>
+                   -Cubra seu nariz e boca com o braço dobrado ou um lenço ao tossir ou expirar.<br>
+                   -Fique em casa se você se sentir indisposto.<br>
+                   -Procure atendimento médico se tiver febre, tosse e dificuldade para respirar.</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--    menu de navegação -->
+<nav class="navbar navbar-expand-md navbar-light mg-auto py-2 box-shadow">
+    <div class="container">
+    <a href="index.html" title="logo" class="navbar-brand">
+        <!-- <img src="img/logo-new.svg" alt="Radiodent Logo"> -->
+        <img src="img/logo-raw-removebg-preview.png" width="230" alt="Radiodent Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Abrir Navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a title="Pagina Inicial" href="index.html" class="nav-link">Página Inicial</a></li>
+            <li class="nav-item"><a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a title="Exames" href="exames.html" class="nav-link">Exames</a></li>
+            <li class="nav-item"><a title="Convênios" href="convenios.html" class="nav-link">Convênios</a></li>
+            <li class="nav-item"><a title="Contato" href="contato.html" class="nav-link">Contato</a></li>
+            <li class="nav-item">
+            <a href="#" class="btn btn-warning text-btn-fix" 
+            data-toggle="modal" data-target="#exampleModal">
+            <i class="im im-warning ml-md-1"></i> Avisos </a>
+            </li>
+            <li class="nav-item">
+                <a href="tel:(21)2489-9390" class="btn btn-success ml-md-1 text-btn-fix"><i class="im im-phone mr-2"></i> Ligar Agora</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+
+
+</nav>
     <!--Linha sobre Exames-->
     <section  class="py-4 bg-light text-center print">
         <div class="container-fluid">
