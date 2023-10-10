@@ -1,247 +1,388 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Radiodent Radiologia Odontológica - Tomografia - Cefalometrica - Radiografia</title>
-    <meta name="description" content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades">
-    <meta name=”robots” content=”follow”>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Radiodent Radiologia Odontológica - Tomografia - Cefalometrica -
+      Radiografia
+    </title>
+    <meta
+      name="description"
+      content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades"
+    />
+    <meta name="”robots”" content="”follow”" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
 
-<body>
-    
-   <!--     Modal de avisos -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" 
-aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header alert-danger">
-                <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p class="lead">
-                    <strong>Para evitar a propagação da COVID-19, faça o seguinte:</strong><br>
-                   -Lave suas mãos com frequência.<br>
-                   -Use sabão e água ou álcool em gel.<br>
-                   -Mantenha uma distância segura de pessoas que estiverem tossindo ou espirrando.<br>
-                   -Use máscara quando não for possível manter o distanciamento físico.<br>
-                   -Não toque nos olhos, no nariz ou na boca.<br>
-                   -Cubra seu nariz e boca com o braço dobrado ou um lenço ao tossir ou expirar.<br>
-                   -Fique em casa se você se sentir indisposto.<br>
-                   -Procure atendimento médico se tiver febre, tosse e dificuldade para respirar.</p>
+  <body>
+    <!--     Modal de avisos -->
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
-            </div>
+    <!--    menu de navegação -->
+    <nav class="navbar navbar-expand-md navbar-light mg-auto py-2 box-shadow">
+      <div class="container d-flex flex align-items-baseline">
+        <a href="index.html" title="logo" class="navbar-brand">
+          <img
+            src="img/logo-raw-removebg-preview.png"
+            width="230"
+            alt="Radiodent Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Abrir Navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          id="navbarSupportedContent"
+          class="collapse navbar-collapse d-flex justify-content-between"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a title="Pagina Inicial" href="index.html" class="nav-link"
+                >Página Inicial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a title="Exames" href="exames.html" class="nav-link">Exames</a>
+            </li>
+            <li class="nav-item">
+              <a title="Convênios" href="convenios.html" class="nav-link"
+                >Convênios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Contato" href="contato.html" class="nav-link"
+                >Contato</a
+              >
+            </li>
+          </ul>
+
+          <div class="d-flex w-25 justify-content-between">
+            <a
+              href="#"
+              class="btn btn-warning text-btn-fix mr-3"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              <i class="bi bi-bell"></i>
+              <span class="ml-2">Avisos</span></a
+            >
+
+            <a
+              href="tel:+5521984771334"
+              target="_blank"
+              class="btn btn-success ml-md-1 mr-2 text-btn-fix"
+            >
+              <i class="bi bi-whatsapp me-2"></i>(21) 98477-1334</a
+            >
+          </div>
         </div>
-    </div>
-</div>
-
-<!--    menu de navegação -->
-<nav class="navbar navbar-expand-md navbar-light mg-auto py-2 box-shadow">
-    <div class="container">
-    <a href="index.html" title="logo" class="navbar-brand">
-        <!-- <img src="img/logo-new.svg" alt="Radiodent Logo"> -->
-        <img src="img/logo-raw-removebg-preview.png" width="230" alt="Radiodent Logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-    aria-expanded="false" aria-label="Abrir Navegação">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a title="Pagina Inicial" href="index.html" class="nav-link">Página Inicial</a></li>
-        <li class="nav-item"><a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a></li>
-        <li class="nav-item"><a title="Exames" href="exames.html" class="nav-link">Exames</a></li>
-        <li class="nav-item"><a title="Convênios" href="convenios.html" class="nav-link">Convênios</a></li>
-        <li class="nav-item"><a title="Contato" href="contato.html" class="nav-link">Contato</a></li>
-        <li class="nav-item">
-        <a href="#" class="btn btn-warning text-btn-fix" 
-        data-toggle="modal" data-target="#exampleModal">
-        <i class="im im-warning ml-md-1 fonte-icon-fix"></i> <span class="ml-2">Avisos</span></a>
-        </li>
-        <li class="nav-item">
-            <a href="tel:(21)2489-9390" class="btn btn-success ml-md-1 mr-2 text-btn-fix"><i class="im im-phone mr-2 fonte-icon-fix"></i>(21) 98477-1334</a>
-        </li>
-    </ul>
-
-    </div>
-    </div>
-
-
-</nav>
+      </div>
+    </nav>
     <!--Linha sobre Exames-->
-    <section  class="py-4 bg-light text-center print">
-        <div class="container-fluid">
-            <div class="my-4">
-                <span class="h5 center d-block">Temos os mais diversos exames para auxiliar profissionais</span>
-                <h2 class="display-4 text-primary">Veja todos os nosso exames</h2>
-            </div>
-            <div class="col">
-            <table class="table table-hover table-responsive-lg">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col">ANÁLISES</th>
-                    <th scope="col">RADIOGRAFIAS</th>                    
-                    <th scope="col">FOTOGRAFIAS</th>
-                    <th scope="col">MODELOS EM GESSO</th>
-                    <th scope="col">TOMOGRAFIAS</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>Cefalométrica em perfil</th>
-                    <th>Intra-orais</th>                    
-                    <th>Intra-orais</th>
-                    <th>--</th>
-                    <th>--</th>
-                  </tr>
-                  <tr>
-                    <td>Analise de adenoides</td>
-                    <td>Periapical isolado</td>                    
-                    <td>Oclusão</td>
-                    <td>Para estudo</td>
-                    <td>Tomografia Computadorizada Cone Beam</td>
-                  </tr>
-                  <tr>
-                    <td>Bimler</td>
-                    <td>Periapical completo</td>                    
-                    <td>Oclusal</td>
-                    <td>Para trabalho</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Delmanto</td>
-                    <td>Interproximal</td>                    
-                    <td>Overjet</td>
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Downs</td>
-                    <td>Oclusal ortogonal</td>                    
-                    <td>Overbite</td>
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Jarabak</td>
-                    <td>Oclusal oblíqua</td>                    
-                    <td>--</td>
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Macnamara</td>
-                    <th>Extra-orais</th>                    
-                    <th>Extra-orais</th>                    
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Petrovic</td>
-                    <td>Panorâmica simples</td>                  
-                    <td>Frente</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Profis</td>
-                    <td>Panorâmica com complementação</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Ricketts</td>
-                    <td>Cefalométrica em perfil</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Steiner</td>
-                    <td>Cefalométrica a 45º</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Tweed</td>
-                    <td>Punho e mão (finalidade ortodôntica)</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>USP</td>
-                    <td>--</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Unicamp</td>
-                    <td>--</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Schwarz</td>
-                    <td>--</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr>
-                    <td>Trevisi</td>
-                    <td>--</td>                  
-                    <td>--</td>                   
-                    <td>--</td>
-                    <td>--</td>
-                  </tr>
-                  <tr class="noprint">
-                    <td></td>
-                    <td></td>      
-                    <td></td>            
-                    <td></td>                   
-                    <td class="text-right">
-                        <a href="#" type="button" onclick="window.print()" class="btn btn-dark">Imprimir</a>
-                    </td>                    
-                  </tr>
-                </tbody>               
-              </table>
-            </div>
+    <section class="py-4 bg-light text-center print">
+      <div class="container-fluid">
+        <div class="my-4">
+          <span class="h5 center d-block"
+            >Temos os mais diversos exames para auxiliar profissionais</span
+          >
+          <h2 class="display-4 text-primary">Veja todos os nosso exames</h2>
         </div>
-        
-    <p class="print contact-info">
-      Informações de Contato:<br>
-      Tels: (21) 3359-1488 <br>
-            (21) 2489-9390 <br>
-            (21) 3390-2958 <br>
-      E-mail: radiodent@bol.com.br<br>
-      Endereço: R. Carvalho de Souza, 247 - Madureira,<br>
-      Rio de Janeiro - RJ, 21350-180
-    </p>
+        <div class="col">
+          <table class="table table-hover table-responsive-lg">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">ANÁLISES</th>
+                <th scope="col">RADIOGRAFIAS</th>
+                <th scope="col">FOTOGRAFIAS</th>
+                <th scope="col">MODELOS EM GESSO</th>
+                <th scope="col">TOMOGRAFIAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Cefalométrica em perfil</th>
+                <th>Intra-orais</th>
+                <th>Intra-orais</th>
+                <th>--</th>
+                <th>--</th>
+              </tr>
+              <tr>
+                <td>Analise de adenoides</td>
+                <td>Periapical isolado</td>
+                <td>Oclusão</td>
+                <td>Para estudo</td>
+                <td>Tomografia Computadorizada Cone Beam</td>
+              </tr>
+              <tr>
+                <td>Bimler</td>
+                <td>Periapical completo</td>
+                <td>Oclusal</td>
+                <td>Para trabalho</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Delmanto</td>
+                <td>Interproximal</td>
+                <td>Overjet</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Downs</td>
+                <td>Oclusal ortogonal</td>
+                <td>Overbite</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Jarabak</td>
+                <td>Oclusal oblíqua</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Macnamara</td>
+                <th>Extra-orais</th>
+                <th>Extra-orais</th>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Petrovic</td>
+                <td>Panorâmica simples</td>
+                <td>Frente</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Profis</td>
+                <td>Panorâmica com complementação</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Ricketts</td>
+                <td>Cefalométrica em perfil</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Steiner</td>
+                <td>Cefalométrica a 45º</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Tweed</td>
+                <td>Punho e mão (finalidade ortodôntica)</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>USP</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Unicamp</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Schwarz</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Trevisi</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr class="noprint">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="text-right">
+                  <a
+                    href="#"
+                    type="button"
+                    onclick="window.print()"
+                    class="btn btn-dark"
+                    >Imprimir</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="print contact-info">
+        Informações de Contato:<br />
+        Tels: (21) 3359-1488 <br />
+        (21) 2489-9390 <br />
+        (21) 3390-2958 <br />
+        E-mail: radiodent@bol.com.br<br />
+        Endereço: R. Carvalho de Souza, 247 - Madureira,<br />
+        Rio de Janeiro - RJ, 21350-180
+      </p>
     </section>
 
+    <footer class="bg-dark text-white noprint">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Mapa do site</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  title="Pagina inicial"
+                  href="https://www.radiodent.com.br/index.html"
+                  >Página Inicial</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Sobre Nós"
+                  href="https://www.radiodent.com.br/sobre.html"
+                  >Sobre</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Exames"
+                  href="https://www.radiodent.com.br/exames.html"
+                  >Exames</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Convênios"
+                  href="https://www.radiodent.com.br/convenios.html"
+                  >Convênios</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Contato"
+                  href="https://www.radiodent.com.br/contato.html"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
 
-    <div data-include="footer.html"></div>
-    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Dados de Contato</h4>
+            <ul class="list-unstyled">
+              <li>
+                <strong>Endereço:</strong><br />
+                <a
+                  alt="Endereço"
+                  href="https://www.google.com/maps/dir/-22.8348035,-43.3274617/Radiodent+Radiologia+Odontol%C3%B3gica+Rua+Carvalho+de+Souza,+247+-+Madureira/@-22.8558683,-43.3460531,14z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x9962d6e9c3268f:0x86ad81752cab1afe!2m2!1d-43.3358819!2d-22.8758391!3e0"
+                  >R. Carvalho de Souza, 247 sala 602 - Madureira, Rio de
+                  Janeiro - RJ, 21350-180</a
+                >
+              </li>
+              <li>
+                <strong>Horário:</strong> <br />
+                09:00 às 18:00
+              </li>
+              <li>
+                <strong>Telefone:</strong><br />
+                <a alt="Telefone" href="tel:(21)3359-1488">(21) 3359-1488</a>
+              </li>
+              <li>
+                <strong>Email:</strong
+                ><a
+                  alt="email"
+                  href="mailto:radiodent@bol.com.br?Subject=Dúvida"
+                >
+                  radiodent@bol.com.br
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Redes Sociais</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  alt="Facebook"
+                  href="https://www.facebook.com/radiodentt"
+                  class="btn btn-sm btn-block btn-outline-primary mb-2"
+                  style="max-width: 140px"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  alt="whatsapp"
+                  href="https://api.whatsapp.com/send?phone=21984771334"
+                  class="btn btn-sm btn-block btn-outline-success mb-2"
+                  style="max-width: 140px"
+                  >WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary text-center">
+        <p class="mb-0">
+          Radiodent Radiologia &copy; 2021. Alguns direitos reservados
+        </p>
+      </div>
+    </footer>
     <script type="text/javascript" src="js/app.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

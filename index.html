@@ -1,274 +1,523 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Radiodent Radiologia Odontológica - Panorâmica - Tomografia - Radiografia
+      Madureira RJ
+    </title>
+    <meta
+      name="description"
+      content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência  a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades"
+    />
+    <meta property="og:url" content="https://www.radiodent.com.br/index.html" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Radiodent Radiologia Odontológica - Exames Odontológicos Madureira RJ"
+    />
+    <meta
+      property="og:description"
+      content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência  a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades"
+    />
+    <meta property="og:image" content="img/logo-raw-removebg-preview.png" />
+    <meta name="robots" content="index" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Radiodent Radiologia Odontológica - Panorâmica - Tomografia - Radiografia Madureira RJ</title>
-    <meta name="description" content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência  a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades">
-    <meta property="og:url"                content="https://www.radiodent.com.br/index.html" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Radiodent Radiologia Odontológica - Exames Odontológicos Madureira RJ" />
-    <meta property="og:description"        content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência  a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas diversas especialidades" />
-    <meta property="og:image"              content="img/logo-raw-removebg-preview.png" />
-    <meta name="robots" content="index"/>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-</head>
-
-<body>
-
+  <body>
     <!--     Modal de avisos -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header alert-danger">
-                    <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p class="lead">
-                        <strong>Semana do dia 29/03 à 03/04, nosso funcionamento será:</strong><br>
-                        Segunda: Fechado<br>
-                        Terça: Fechado<br>
-                        Quarta: 9h às 18h<br>
-                        Quinta: 9h às 18h<br>
-                        Sexta: Fechado<br>
-                        Sábado: 9h às 13h Fechado<br>
-                        </p>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="avisos"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Avisos</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Não temos avisos no momento</div>
         </div>
+      </div>
     </div>
 
     <!--    menu de navegação -->
-    <nav class="navbar navbar-expand-md navbar-light mg-auto py-2 box-shadow">
-        <div class="container">
-            <a href="index.html" title="logo" class="navbar-brand">
-                <!-- <img src="img/logo-new.svg" alt="Radiodent Logo"> -->
-                <img src="img/logo-raw-removebg-preview.png" width="230" alt="Radiodent Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-md navbar-light mg-auto py-2">
+      <div class="container d-flex flex align-items-baseline">
+        <a href="index.html" title="logo" class="navbar-brand">
+          <img
+            src="img/logo-raw-removebg-preview.png"
+            width="230"
+            alt="Radiodent Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Abrir Navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a title="Pagina Inicial" href="index.html" class="nav-link">Página Inicial</a>
-                    </li>
-                    <li class="nav-item"><a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a></li>
-                    <li class="nav-item"><a title="Exames" href="exames.html" class="nav-link">Exames</a></li>
-                    <li class="nav-item"><a title="Convênios" href="convenios.html" class="nav-link">Convênios</a></li>
-                    <li class="nav-item"><a title="Contato" href="contato.html" class="nav-link">Contato</a></li>
-                    <li class="nav-item">
-                        <a href="#" class="btn btn-warning text-btn-fix" data-toggle="modal"
-                            data-target="#exampleModal">
-                            <i class="im im-warning ml-md-1 fonte-icon-fix"></i> <span class="ml-2">Avisos</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="tel:(21)2489-9390" class="btn btn-success ml-md-1 mr-2 text-btn-fix"><i
-                                class="im im-phone mr-2 fonte-icon-fix"></i>(21) 98477-1334</a>
-                    </li>
-                </ul>
+        <div
+          id="navbarSupportedContent"
+          class="collapse navbar-collapse d-flex justify-content-between"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a title="Pagina Inicial" href="index.html" class="nav-link"
+                >Página Inicial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a title="Exames" href="exames.html" class="nav-link">Exames</a>
+            </li>
+            <li class="nav-item">
+              <a title="Convênios" href="convenios.html" class="nav-link"
+                >Convênios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Contato" href="contato.html" class="nav-link"
+                >Contato</a
+              >
+            </li>
+          </ul>
 
-            </div>
+          <div class="d-flex w-25 justify-content-between">
+            <a
+              href="#"
+              class="btn btn-warning text-btn-fix mr-3"
+              data-bs-toggle="modal"
+              data-bs-target="#avisos"
+            >
+              <i class="bi bi-bell"></i>
+              <span class="ml-2">Avisos</span></a
+            >
+
+            <a
+              href="tel:+5521984771334"
+              target="_blank"
+              class="btn btn-success ml-md-1 mr-2 text-btn-fix"
+            >
+              <i class="bi bi-whatsapp me-2"></i>(21) 98477-1334</a
+            >
+          </div>
         </div>
-
-
+      </div>
     </nav>
     <section class="container-fluid">
-        <div class="row bg-dark text-white">
-            <div class="col-lg-5 p-0">
-                <div id="carouselHome" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselHome" data-slide-to="1"></li>
-                        <li data-target="#carouselHome" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <img src="img/banner-x-ray.svg" class="d-block w-100" alt="Panorâmica">
-                        </div>
-                        <div class="carousel-item active">
-                            <img src="img/banner-moldes.svg" class="d-block w-100" alt="Molde Mandibula">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/banner-smiling.svg" class="d-block w-100" alt="Rindo">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Próximo</span>
-                    </a>
-                </div>
-
-
+      <div class="row bg-light text-white">
+        <div class="col-lg-5 p-0">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Panorâmica"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Molde Mandíbula"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Rindo"
+              ></button>
             </div>
-            <div class="col-lg-5 p-5 align-self-center">
-                <h1 id="radiografia" class="display-4">Radiografia Panorâmica.</h1>
-                <p class="lead">Os profissionais capacitados estarão sempre a disposição.</p>
-                <a class="btn btn-lg btn-success" href="tel:2198477-1334"><i class="im im-phone mr-2"></i> LIGAR E
-                    TIRAR DÚVIDAS</a>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img
+                  src="img/banner-x-ray.svg"
+                  class="d-block w-100"
+                  alt="Panorâmica"
+                />
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="img/banner-moldes.svg"
+                  class="d-block w-100"
+                  alt="Molde Mandíbula"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/banner-smiling.svg"
+                  class="d-block w-100"
+                  alt="Rindo"
+                />
+              </div>
             </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
+        <div class="col-lg-5 p-5 align-self-center">
+          <h2 id="radiografia" class="display-5 text-primary fw-medium">
+            Radiografia Panorâmica e Tomografia Cone Beam
+          </h2>
+          <p class="text-secondary">
+            Os profissionais capacitados estarão sempre a disposição.
+          </p>
+          <a
+            class="btn btn-lg btn-success"
+            href="http://wa.me/5521984771334"
+            target="_blank"
+            ><i class="bi bi-whatsapp me-1"></i> Contatar e tirar dúvidas
+          </a>
+        </div>
+      </div>
     </section>
     <!--Linha sobre Exames-->
     <section id="exames" class="py-5 bg-light text-center">
-        <div class="container">
-            <div class="my-5">
-                <span class="h5 center d-block">Radiografia Panorâmica</span>
-                <h2 class="display-4 text-primary">Veja os exames disponíveis</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-md-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="img/icones/radiografia.png" alt="">
-                    </div>
-                    <h3>RADIOGRAFIAS</h3>
-                    <h4 class="text-center panel-heading bold">Intra-orais</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">Periapical isolado</li>
-                        <li class="list-group-item">Periapical completo</li>
-                        <li class="list-group-item">Interproximal</li>
-                        <li class="list-group-item">Oclusal ortogonal</li>
-                        <li class="list-group-item">Oclusal oblíqua</li>
-                    </ul>
-                    <h4 class="text-center panel-heading mt-2">Extra-orais</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">Panorâmica simples</li>
-                        <li class="list-group-item">Panorâmica com complementação</li>
-                        <li class="list-group-item">Cefalométrica em perfil</li>
-                        <li class="list-group-item">Cefalométrica a 45º</li>
-                        <li class="list-group-item">Punho e mão (finalidade ortodôntica)</li>
-                    </ul>
-                </div>
-                <div class="col-xl-4 col-md-4 mt-2">
-                    <div class="d-flex justify-content-center">
-                        <img src="img/icones/analises.png" alt="">
-                    </div>
-                    <h3>ANÁLISES</h3>
-                    <p class="text-center panel-heading bold">Cefalométrica em perfil</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">Analise de adenoides</li>
-                        <li class="list-group-item">Bimler</li>
-                        <li class="list-group-item">Delmanto</li>
-                        <li class="list-group-item">Downs</li>
-                        <li class="list-group-item">Jarabak</li>
-                        <li class="list-group-item">Macnamara</li>
-                        <li class="list-group-item">Petrovic</li>
-                        <li class="list-group-item">Profis</li>
-                        <li class="list-group-item">Ricketts</li>
-                        <li class="list-group-item">Steiner</li>
-                        <li class="list-group-item">Tweed</li>
-                        <li class="list-group-item">USP</li>
-                        <li class="list-group-item">Unicamp</li>
-                        <li class="list-group-item">Schwarz</li>
-                        <li class="list-group-item">Trevisi</li>
-
-                    </ul>
-                </div>
-                <div class="col-xl-4 col-md-4 mt-2">
-                    <div class="d-flex justify-content-center">
-                        <img src="img/icones/fotografias.png" alt="">
-                    </div>
-                    <h3>FOTOGRAFIAS</h3>
-                    <h4 class="text-center panel-heading ">Intra-orais</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">Oclusão</li>
-                        <li class="list-group-item">Oclusal</li>
-                        <li class="list-group-item">Overjet</li>
-                        <li class="list-group-item">Overbite</li>
-
-                    </ul>
-                    <h4 class="text-center panel-heading mt-1">Extra-orais</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">Frente</li>
-                        <li class="list-group-item">Perfil</li>
-                    </ul>
-
-                    <p class="text-center panel-heading h4 my-2">MODELOS EM GESSO</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">Para estudo</li>
-                        <li class="list-group-item">Para trabalho</li>
-                    </ul>
-
-                    <p class="text-center panel-heading h4 my-2">TOMOGRAFIAS</p>
-                    <ul class="list-group">
-                        <li class="list-group-item">Tomografia Computadorizada Cone Beam</li>
-
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="my-5">
+          <span class="h5 center d-block">Radiografia Panorâmica</span>
+          <h2 class="display-4 text-primary">Veja os exames disponíveis</h2>
         </div>
+
+        <div class="row">
+          <div class="col-xl-4 col-md-4">
+            <div class="d-flex justify-content-center">
+              <img src="img/icones/radiografia.png" alt="" />
+            </div>
+            <h3>RADIOGRAFIAS</h3>
+            <h4 class="text-center panel-heading bold">Intra-orais</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Periapical isolado</li>
+              <li class="list-group-item">Periapical completo</li>
+              <li class="list-group-item">Interproximal</li>
+              <li class="list-group-item">Oclusal ortogonal</li>
+              <li class="list-group-item">Oclusal oblíqua</li>
+            </ul>
+            <h4 class="text-center panel-heading mt-2">Extra-orais</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Panorâmica simples</li>
+              <li class="list-group-item">Panorâmica com complementação</li>
+              <li class="list-group-item">Cefalométrica em perfil</li>
+              <li class="list-group-item">Cefalométrica a 45º</li>
+              <li class="list-group-item">
+                Punho e mão (finalidade ortodôntica)
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-4 col-md-4 mt-2">
+            <div class="d-flex justify-content-center">
+              <img src="img/icones/analises.png" alt="" />
+            </div>
+            <h3>ANÁLISES</h3>
+            <p class="text-center panel-heading bold">
+              Cefalométrica em perfil
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">Analise de adenoides</li>
+              <li class="list-group-item">Bimler</li>
+              <li class="list-group-item">Delmanto</li>
+              <li class="list-group-item">Downs</li>
+              <li class="list-group-item">Jarabak</li>
+              <li class="list-group-item">Macnamara</li>
+              <li class="list-group-item">Petrovic</li>
+              <li class="list-group-item">Profis</li>
+              <li class="list-group-item">Ricketts</li>
+              <li class="list-group-item">Steiner</li>
+              <li class="list-group-item">Tweed</li>
+              <li class="list-group-item">USP</li>
+              <li class="list-group-item">Unicamp</li>
+              <li class="list-group-item">Schwarz</li>
+              <li class="list-group-item">Trevisi</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 col-md-4 mt-2">
+            <div class="d-flex justify-content-center">
+              <img src="img/icones/fotografias.png" alt="" />
+            </div>
+            <h3>FOTOGRAFIAS</h3>
+            <h4 class="text-center panel-heading">Intra-orais</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Oclusão</li>
+              <li class="list-group-item">Oclusal</li>
+              <li class="list-group-item">Overjet</li>
+              <li class="list-group-item">Overbite</li>
+            </ul>
+            <h4 class="text-center panel-heading mt-1">Extra-orais</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Frente</li>
+              <li class="list-group-item">Perfil</li>
+            </ul>
+
+            <p class="text-center panel-heading h4 my-2">MODELOS EM GESSO</p>
+            <ul class="list-group">
+              <li class="list-group-item">Para estudo</li>
+              <li class="list-group-item">Para trabalho</li>
+            </ul>
+
+            <p class="text-center panel-heading h4 my-2">TOMOGRAFIAS</p>
+            <ul class="list-group">
+              <li class="list-group-item">
+                Tomografia Computadorizada Cone Beam
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--Linha sobre feed social-->
-    <section style="background: url('img/bg-quote.jpg') center center; background-size: cover;" class="p-md-5">
-        <blockquote class="blockquote text-center text-primary p-md-5 p-3">
-            <p class="display-4">
-                <em>"Nunca perca esse sorriso que dá vida ao seu rosto e paz à sua alma."</em>
-            </p>
-        </blockquote>
-
+    <section
+      style="
+        background: url('img/bg-quote.jpg') center center;
+        background-size: cover;
+      "
+      class="p-md-5"
+    >
+      <blockquote class="blockquote text-primary text-dark p-md-5 p-3">
+        <em class="display-2 fw-bold text-primary">
+          Sorrisos que iluminam o caminho da vida, sempre com carinho e
+          dedicação.
+        </em>
+      </blockquote>
     </section>
 
     <section class="container">
-        <div class="my-5 text-center">
-            <span class="h5 center d-block">Tem alguma dúvida?</span>
-            <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
-        </div>
+      <div class="my-5 text-center">
+        <span class="h5 center d-block">Tem alguma dúvida?</span>
+        <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+      </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
-                <div class="pergunta">
-                    <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta1"
-                        aria-expanded="false" aria-controls="pergunta1">→ Como chegar?</a>
-                    <div id="pergunta1" class="collapse show" role="tabpanel">
-                        <p>
-                            Estamos localizados na Rua Carvalho de Souza, 247 - 6º andar Sala 602 - Madureira, próximo
-                            ao bando Itaú.
-                        </p>
-                    </div>
-                </div>
-                <div class="dropdown-divider"></div>
-                <div class="pergunta">
-                    <a href="#pergunta3" class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes"
-                        aria-expanded="false" aria-controls="pergunta2">→ Quanto custam os exames?</a>
-
-                    <div id="pergunta3" class="collapse" role="tabpanel">
-                        <p>Temos os mais diversos tipos de exames e serviços para profissionais, para quaisquer dúvidas
-                            tente contatar nos diretamente.</p>
-                    </div>
-                </div>
-                <div class="dropdown-divider"></div>
-
+      <div class="row justify-content-center">
+        <div
+          class="col-md-6"
+          id="perguntasFrequentes"
+          data-children=".pergunta"
+        >
+          <div class="pergunta">
+            <a
+              class="text-decoration-none"
+              data-toggle="collapse"
+              data-parent="#perguntasFrequentes"
+              href="#pergunta1"
+              data-bs-toggle="collapse"
+              data-bs-target="#pergunta1"
+              ><i class="bi bi-arrow-right me-2"></i>Como chegar?</a
+            >
+            <div id="pergunta1" class="collapse show" role="tabpanel">
+              <p>
+                Nosso endereço está situado na Rua Carvalho de Souza, número
+                247, 6º andar, Sala 602, no bairro de Madureira, no edifício do
+                banco Itaú.
+              </p>
             </div>
-        </div>
-        <div class="text-center my-4">
-            <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-            <a href="tel:(21)3359-1488" class="btn btn-success btn-lg">Ligue Nos</a>
-        </div>
-    </section>
-    <div data-include="footer.html"></div>
-    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-</body>
+          </div>
+          <div class="dropdown-divider"></div>
+          <div class="pergunta">
+            <a
+              href="#pergunta2"
+              class="text-decoration-none"
+              data-bs-toggle="collapse"
+              data-bs-target="#pergunta2"
+              ><i class="bi bi-arrow-right me-2"></i>Quanto custam os exames?</a
+            >
 
+            <div id="pergunta2" class="collapse" role="tabpanel">
+              <p>
+                Temos os mais diversos tipos de exames e serviços para
+                profissionais, para quaisquer dúvidas, tente contatar nos
+                diretamente.
+              </p>
+            </div>
+          </div>
+          <div class="dropdown-divider"></div>
+        </div>
+      </div>
+      <div class="text-center my-4">
+        <p class="small m-1">Fale conosco para mais dúvidas</p>
+        <a
+          href="tel:(21)3359-1488"
+          target="_blank"
+          class="btn btn-primary btn-lg"
+          ><i class="bi bi-telephone-outbound me-1"></i>Ligue Nos</a
+        >
+      </div>
+    </section>
+    <footer class="bg-dark text-white noprint">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Mapa do site</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  title="Pagina inicial"
+                  href="https://www.radiodent.com.br/index.html"
+                  >Página Inicial</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Sobre Nós"
+                  href="https://www.radiodent.com.br/sobre.html"
+                  >Sobre</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Exames"
+                  href="https://www.radiodent.com.br/exames.html"
+                  >Exames</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Convênios"
+                  href="https://www.radiodent.com.br/convenios.html"
+                  >Convênios</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Contato"
+                  href="https://www.radiodent.com.br/contato.html"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Dados de Contato</h4>
+            <ul class="list-unstyled">
+              <li>
+                <strong>Endereço:</strong><br />
+                <a
+                  alt="Endereço"
+                  href="https://www.google.com/maps/dir/-22.8348035,-43.3274617/Radiodent+Radiologia+Odontol%C3%B3gica+Rua+Carvalho+de+Souza,+247+-+Madureira/@-22.8558683,-43.3460531,14z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x9962d6e9c3268f:0x86ad81752cab1afe!2m2!1d-43.3358819!2d-22.8758391!3e0"
+                  >R. Carvalho de Souza, 247 sala 602 - Madureira, Rio de
+                  Janeiro - RJ, 21350-180</a
+                >
+              </li>
+              <li>
+                <strong>Horário:</strong> <br />
+                09:00 às 18:00
+              </li>
+              <li>
+                <strong>Telefone:</strong><br />
+                <a alt="Telefone" href="tel:(21)3359-1488">(21) 3359-1488</a>
+              </li>
+              <li>
+                <strong>Email:</strong
+                ><a
+                  alt="email"
+                  href="mailto:radiodent@bol.com.br?Subject=Dúvida"
+                >
+                  radiodent@bol.com.br
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Redes Sociais</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  alt="Facebook"
+                  target="_blank"
+                  href="https://www.facebook.com/radiodentt"
+                  class="btn btn-sm btn-block btn-outline-primary mb-2"
+                  style="max-width: 140px"
+                  ><i class="bi bi-facebook me-1"></i>Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  alt="whatsapp"
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=21984771334"
+                  class="btn btn-sm btn-block btn-outline-success mb-2"
+                  style="max-width: 140px"
+                  ><i class="bi bi-whatsapp me-1"></i>WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary text-center">
+        <p class="mb-0">
+          Radiodent Radiologia &copy; 2021. Alguns direitos reservados
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

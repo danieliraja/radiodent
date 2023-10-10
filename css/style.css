@@ -1,102 +1,106 @@
 /* icone feitos por braces by Made x Made from the Noun Project*/
 
-.contact-info{
-    display: none;
+.contact-info {
+  display: none;
 }
-i.fonte-icon-fix{
-    font-size:1.1rem;
+i.fonte-icon-fix {
+  font-size: 1.1rem;
 }
-.text-btn-fix{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text-btn-fix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.convenios-items{
-    height:210px;
-    overflow-x: auto;
+.convenios-items {
+  height: 210px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-.box-shadow {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
-        0 4px 8px 0 rgba(0, 0, 0, .05);
-}
-.navbar-toggler{
-    background-color: rgb(204, 204, 204);
-}
-.navbar-toggler-icon{
-    color: #2f577a
-}
-@media(max-width: 768px) {
-    body {
-        padding-top: 0px
-    }
-    .jumbotron img{
-        padding-bottom: 30px;
-    }
-    .fixed-top {
-        position: relative
-    }
-    .navbar{
-        text-align: right;        
-    }
-    .navbar a{
-        color: #2f577a !important;
-        font-weight: bold
-    }
-    .btn{
-        margin-bottom: 10px;
-    }
 
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+.navbar-toggler {
+  background-color: rgb(204, 204, 204);
+}
+.navbar-toggler-icon {
+  color: #2f577a;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+  .jumbotron img {
+    padding-bottom: 30px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+  .navbar {
+    text-align: right;
+  }
+  .navbar a {
+    color: #2f577a !important;
+    font-weight: bold;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+
+tr td {
+  text-transform: uppercase;
 }
 
 @media print {
-    * {
-        background: transparent;
-        color: #000 !important;
-        text-shadow: none;
-        filter: none;
-        -ms-filter: none;
-    }
+  * {
+    background: transparent;
+    color: #000 !important;
+    text-shadow: none;
+    filter: none;
+    -ms-filter: none;
+  }
 
-    /* body * {
+  /* body * {
         visibility: hidden;
     } */
 
-    .noprint {
-        display: none;
-    }
+  .noprint {
+    display: none;
+  }
 
-    section.print {
-        padding-top: -150px;
-    }
+  section.print {
+    padding-top: -150px;
+  }
 
-    .print,
-    .print * {
-        visibility: visible;
-    }
+  .print,
+  .print * {
+    visibility: visible;
+  }
 
-    .print {
-        width: 1100px;
-    }
+  .print {
+    width: 1100px;
+  }
 
-    .contact-info {
-        display: block;
-        font-size: 1.2rem;
-    }
+  .contact-info {
+    display: block;
+    font-size: 1.2rem;
+  }
 
-    .print p {
-        margin: 0.25rem;
-    }
+  .print p {
+    margin: 0.25rem;
+  }
 
-    .print ul,
-    .print h4 {
-        margin-top: -100px;
-    }
+  .print ul,
+  .print h4 {
+    margin-top: -100px;
+  }
 
-    .print li {
-        padding: 0.9rem;
-    }
+  .print li {
+    padding: 0.9rem;
+  }
 
-    @page {
-        size: portrait;
-    }
+  @page {
+    size: portrait;
+  }
 }

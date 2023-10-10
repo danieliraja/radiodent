@@ -1,209 +1,450 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+      Radiodent Radiologia Odontológica - Convênios - Rio de Janeiro
+    </title>
+    <meta
+      name="description"
+      content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas
+    diversas especialidades"
+    />
+    <meta name="”robots”" content="”follow”" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Radiodent Radiologia Odontológica - Convênios - Rio de Janeiro</title>
-    <meta name="description" content="Atendemos em Madureira desde o ano de 2000, a Radiodent oferece serviços de qualidade e excelência a fim de proporcionar um diagnóstico preciso aos profissionais de odontologia nas
-    diversas especialidades">
-    <meta name=”robots” content=”follow”>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-</head>
-
-<body>
-
-    <!--     Modal de avisos -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header alert-danger">
-                    <h5 class="modal-title text-center" id="exampleModalLabel">Avisos Importantes</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p class="lead">
-                        <strong>Para evitar a propagação da COVID-19, faça o seguinte:</strong><br>
-                        -Lave suas mãos com frequência.<br>
-                        -Use sabão e água ou álcool em gel.<br>
-                        -Mantenha uma distância segura de pessoas que estiverem tossindo ou espirrando.<br>
-                        -Use máscara quando não for possível manter o distanciamento físico.<br>
-                        -Não toque nos olhos, no nariz ou na boca.<br>
-                        -Cubra seu nariz e boca com o braço dobrado ou um lenço ao tossir ou expirar.<br>
-                        -Fique em casa se você se sentir indisposto.<br>
-                        -Procure atendimento médico se tiver febre, tosse e dificuldade para respirar.</p>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mt-2" data-dismiss="modal">Entendi</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
+  <body>
     <!--    menu de navegação -->
     <nav class="navbar navbar-expand-md navbar-light mg-auto py-2 box-shadow">
-        <div class="container">
-            <a href="index.html" title="logo" class="navbar-brand">
-                <!-- <img src="img/logo-new.svg" alt="Radiodent Logo"> -->
-                <img src="img/logo-raw-removebg-preview.png" width="230" alt="Radiodent Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <div class="container d-flex flex align-items-baseline">
+        <a href="index.html" title="logo" class="navbar-brand">
+          <img
+            src="img/logo-raw-removebg-preview.png"
+            width="230"
+            alt="Radiodent Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Abrir Navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a title="Pagina Inicial" href="index.html" class="nav-link">Página Inicial</a></li>
-                    <li class="nav-item"><a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a></li>
-                    <li class="nav-item"><a title="Exames" href="exames.html" class="nav-link">Exames</a></li>
-                    <li class="nav-item"><a title="Convênios" href="convenios.html" class="nav-link">Convênios</a></li>
-                    <li class="nav-item"><a title="Contato" href="contato.html" class="nav-link">Contato</a></li>
-                    <li class="nav-item">
-                    <a href="#" class="btn btn-warning text-btn-fix" 
-                    data-toggle="modal" data-target="#exampleModal">
-                    <i class="im im-warning ml-md-1 fonte-icon-fix"></i> <span class="ml-2">Avisos</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="tel:(21)2489-9390" class="btn btn-success ml-md-1 mr-2 text-btn-fix"><i class="im im-phone mr-2 fonte-icon-fix"></i>(21) 98477-1334</a>
-                    </li>
-                </ul>
-            </div>
+        <div
+          id="navbarSupportedContent"
+          class="collapse navbar-collapse d-flex justify-content-between"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a title="Pagina Inicial" href="index.html" class="nav-link"
+                >Página Inicial</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Sobre Nos" href="sobre.html" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a title="Exames" href="exames.html" class="nav-link">Exames</a>
+            </li>
+            <li class="nav-item">
+              <a title="Convênios" href="convenios.html" class="nav-link"
+                >Convênios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a title="Contato" href="contato.html" class="nav-link"
+                >Contato</a
+              >
+            </li>
+          </ul>
+
+          <div class="d-flex w-25 justify-content-between">
+            <a
+              href="#"
+              class="btn btn-warning text-btn-fix mr-3"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              <i class="bi bi-bell"></i>
+              <span class="ml-2">Avisos</span></a
+            >
+
+            <a
+              href="tel:+5521984771334"
+              target="_blank"
+              class="btn btn-success ml-md-1 mr-2 text-btn-fix"
+            >
+              <i class="bi bi-whatsapp me-2"></i>(21) 98477-1334</a
+            >
+          </div>
         </div>
+      </div>
     </nav>
     <section class="container-fluid bg-light py-4">
-        <div class="my-5 text-center">
-            <p class="h5 center d-block">Consulte os convênios que aceitamos</p>
-            <h2 class="display-4 text-primary">Convênios</h2>
+      <div class="my-5 text-center">
+        <p class="h5 center d-block">Consulte os convênios que aceitamos</p>
+        <h2 class="display-4 text-primary">Convênios</h2>
+      </div>
+      <div class="container py-4">
+        <div class="convenios-table">
+          <table
+            class="table table-striped table-responsive-lg text-uppercase text-center"
+          >
+            <thead>
+              <tr>
+                <th scope="col" colspan="5">
+                  Abaixo todos convênios que aceitamos
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AMIL DENTAL</td>
+                <td>APPAI</td>
+                <td>BRADESCO DENTAL</td>
+                <td>CAPE SAUDE</td>
+                <td>CARE PLUS</td>
+              </tr>
+              <tr>
+                <td>CEDOM</td>
+                <td>DENTE CROSS</td>
+                <td>DENTE PREV</td>
+                <td>DENTE SIM</td>
+                <td>DIX DENTAL</td>
+              </tr>
+              <tr>
+                <td>Assim / dentsim</td>
+                <td>GOLDENTAL</td>
+                <td>IMPAO</td>
+                <td>INTERLIFE</td>
+                <td>INTERODONTO</td>
+              </tr>
+              <tr>
+                <td>LIFE EMPRESARIAL</td>
+                <td>Unimed Odonto</td>
+                <td>MEDISERVISE</td>
+                <td>METLIFE</td>
+                <td>ODONTO PREV</td>
+              </tr>
+              <tr>
+                <td>ODONTO EMPRESA</td>
+                <td>PRIMA VIDA</td>
+                <td>PRODENT</td>
+                <td>SEMPRE ODONTO</td>
+                <td>mais dental</td>
+              </tr>
+              <tr>
+                <td>SUL AMERICA</td>
+                <td>UNIODONTO (UNIMED)</td>
+                <td>Odontogroup</td>
+                <td>Assist</td>
+                <td>pleno Odonto</td>
+              </tr>
+              <tr>
+                <td>Porto Seguro</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="container py-4">
-            <div class="convenios-table">
-                <table class="table table-striped table-responsive-lg text-uppercase text-center">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                            <th scope="col">Abaixo todos convênios que aceitamos</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>AMIL DENTAL</td>
-                            <td>APPAI</td>
-                            <td>BRADESCO DENTAL</td>
-                            <td>CAPE SAUDE</td>
-                            <td>CARE PLUS</td>
-                        </tr>
-                        <tr>
-                            <td>CEDOM</td>
-                            <td>DENTE CROSS</td>
-                            <td>DENTE PREV</td>
-                            <td>DENTE SIM</td>
-                            <td>DIX DENTAL</td>
-                        </tr>
-                        <tr>
-                            <td>ELO CARD</td>
-                            <td>GOLDENTAL</td>
-                            <td>IMPAO</td>
-                            <td>INTERLIFE</td>
-                            <td>INTERODONTO</td>
-                        </tr>
-                        <tr>
-                            <td>LIFE EMPRESARIAL</td>
-                            <td>MEDIAL ODONTO</td>
-                            <td>MEDISERVISE</td>
-                            <td>METLIFE</td>
-                            <td>ODONTO PREV</td>
-                        </tr>
-                        <tr>
-                            <td>ODONTO EMPRESA</td>
-                            <td>PRIMA VIDA</td>
-                            <td>PRODENT</td>
-                            <td>SEMPRE ODONTO</td>
-                            <td>SITO</td>
-                        </tr>
-                        <tr>                            
-                            <td>SUL AMERICA</td>                            
-                            <td>UNIODONTO (UNIMED) </td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
+        <div class="convenios-items">
+          <div class="row g-3">
+            <a
+              class="col-1"
+              href="https://www.amildental.com.br/"
+              target="_blank"
+            >
+              <img
+                src="img/convenios/editadas/amil-dental.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="https://www.appai.org.br/" target="_blank">
+              <img
+                src="img/convenios/editadas/appai.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a
+              class="col-1"
+              href="https://www.bradescoseguros.com.br/clientes/produtos/plano-dental"
+              target="_blank"
+            >
+              <img
+                src="img/convenios/editadas/bradesco.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a
+              class="col-1"
+              href="https://www.capesesp.com.br/"
+              target="_blank"
+            >
+              <img
+                src="img/convenios/editadas/cape-saude.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#" target="_blank">
+              <img
+                src="img/convenios/editadas/care.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/dentecross.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/dentalprev.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/dente-sim.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/dix-dental.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
 
-                    </tbody>
-                </table>
-            </div>
-            <div class="convenios-items">
-                <a href="https://www.amildental.com.br/" target="_blank"> <img src="img/convenios/editadas/amil-dental.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="https://www.appai.org.br/" target="_blank"> <img src="img/convenios/editadas/appai.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="https://www.bradescoseguros.com.br/clientes/produtos/plano-dental" target="_blank"> <img src="img/convenios/editadas/bradesco.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="https://www.capesesp.com.br/" target="_blank"> <img src="img/convenios/editadas/cape-saude.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#" target="_blank"> <img src="img/convenios/editadas/care.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#" target="_blank"> <img src="img/convenios/editadas/cedom.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/dentecross.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/dentalprev.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/dente-sim.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/dix-dental.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/elo.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/goldental.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/interlife.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/interodonto.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/life-empresarial-saude.jpg" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/medial_odonto.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/medi-service.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/metlife.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/odontoprev.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/odontoempresa.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/primavida.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/prodent.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/sempre-odonto.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/sulamerica.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-                <a href="#"> <img src="img/convenios/editadas/uniodonto.png" alt="lista de convênios"
-                        class="img-thumbnail"></a>
-
-
-            </div>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/goldental.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/interlife.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/interodonto.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/life-empresarial-saude.jpg"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/medial_odonto.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/medi-service.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/metlife.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/odontoprev.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/odontoempresa.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/primavida.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/prodent.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/sempre-odonto.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/sulamerica.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+            <a class="col-1" href="#">
+              <img
+                src="img/convenios/editadas/uniodonto.png"
+                alt="lista de convênios"
+                class="img-thumbnail"
+            /></a>
+          </div>
         </div>
+      </div>
     </section>
 
-    <div data-include="footer.html"></div>
-    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-</body>
+    <footer class="bg-dark text-white noprint">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Mapa do site</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  title="Pagina inicial"
+                  href="https://www.radiodent.com.br/index.html"
+                  >Página Inicial</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Sobre Nós"
+                  href="https://www.radiodent.com.br/sobre.html"
+                  >Sobre</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Exames"
+                  href="https://www.radiodent.com.br/exames.html"
+                  >Exames</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Convênios"
+                  href="https://www.radiodent.com.br/convenios.html"
+                  >Convênios</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Contato"
+                  href="https://www.radiodent.com.br/contato.html"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </div>
 
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Dados de Contato</h4>
+            <ul class="list-unstyled">
+              <li>
+                <strong>Endereço:</strong><br />
+                <a
+                  alt="Endereço"
+                  href="https://www.google.com/maps/dir/-22.8348035,-43.3274617/Radiodent+Radiologia+Odontol%C3%B3gica+Rua+Carvalho+de+Souza,+247+-+Madureira/@-22.8558683,-43.3460531,14z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x9962d6e9c3268f:0x86ad81752cab1afe!2m2!1d-43.3358819!2d-22.8758391!3e0"
+                  >R. Carvalho de Souza, 247 sala 602 - Madureira, Rio de
+                  Janeiro - RJ, 21350-180</a
+                >
+              </li>
+              <li>
+                <strong>Horário:</strong> <br />
+                09:00 às 18:00
+              </li>
+              <li>
+                <strong>Telefone:</strong><br />
+                <a alt="Telefone" href="tel:(21)3359-1488">(21) 3359-1488</a>
+              </li>
+              <li>
+                <strong>Email:</strong
+                ><a
+                  alt="email"
+                  href="mailto:radiodent@bol.com.br?Subject=Dúvida"
+                >
+                  radiodent@bol.com.br
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <h4 class="h6">Redes Sociais</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  alt="Facebook"
+                  href="https://www.facebook.com/radiodentt"
+                  class="btn btn-sm btn-block btn-outline-primary mb-2"
+                  style="max-width: 140px"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  alt="whatsapp"
+                  href="https://api.whatsapp.com/send?phone=21984771334"
+                  class="btn btn-sm btn-block btn-outline-success mb-2"
+                  style="max-width: 140px"
+                  >WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary text-center">
+        <p class="mb-0">
+          Radiodent Radiologia &copy; 2021. Alguns direitos reservados
+        </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
